@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Formulário de pesquisa
+    </title>    
+</head>
+  
+<body>
+    <h1 id="title">Formulário de pesquisa</h1>
+    <p id="description">Pesquisa para elaboração de processos trabalhistas</p>
+  
+    <!-- Create Form -->
+    <form id="survey-form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="name-label">
+                Nome
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Insira seu nome" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="email-label">
+                Email
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Insira seu email" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="number-label">
+                Idade
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="number"
+                   id="number"
+                   placeholder="insira sua idade"
+                   min="1"
+                   max="3" />
+        </div>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Qual das opções melhor descreve seu atual estado profissional?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="dropdown">
+                <option value="student">Estudante</option>
+                <option value="intern">Desempregado</option>
+                <option value="professional">
+                    Empregado
+                </option>
+                <option value="other">Outros</option>
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>
+                Você recomendaria nosso escritório para seus amigos?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Sim</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Não</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Talvez</input>
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label>Languages and Frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Dano moral</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Verbas rescisórias</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Homologação de acordo</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Acordo não cumprido</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Horas extras</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Assédio moral</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Estabilidade acidentária</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Estabilidade gravídica</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Aviso prévio</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">outros</input></label>
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+                Comentários e Sugestões
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+  
+</html>
