@@ -1,0 +1,42 @@
+main {
+    padding-top: 10px;
+  }
+
+header{
+  margin: auto;
+  text-align: center;
+  padding-top: 30px
+    
+}
+
+#img-caption{
+  
+  text-align: center;
+
+}
+
+#image{
+  margin: auto;
+  max-width: 100%;
+  display: block;
+
+}
+
+#tribute-info{
+  text-align: center;
+  margin: 3rem 0;
+
+
+}
+
+.subtitle{
+  margin-bottom: 5rem
+}
+
+#lista{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
